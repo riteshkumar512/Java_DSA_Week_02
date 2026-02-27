@@ -10,16 +10,16 @@ public class Pattern_11 {
             //space
             int i =1;
             while (i<=space){
-                System.out.print("  ");
+                System.out.print("\t");
                 i++;
             }
             //star
             int j=1;
             while (j<=star){
                 if (j%2==0){
-                    System.out.print("  ");
+                    System.out.print("\t");
                 }else {
-                    System.out.print("* ");
+                    System.out.print("*\t");
                 }
                 j++;
             }

@@ -1,24 +1,26 @@
-package Self_Practice;
+package Assignment_02;
 
-public class Pattern_07 {
+import java.util.Scanner;
+
+public class Pattern_Number_Ladder {
     public static void main(String[] args) {
-        int n=5;
+        Scanner sc= new Scanner(System.in);
+        int n= sc.nextInt();
         int row=1;
-        int star=n;
+        int star=1;
+        int val=1;
         while (row<=n){
             //star
             int i=1;
             while (i<=star){
-                if (row==1 || row==n || i==1 ||i==n){
-                    System.out.print("*\t");
-                }else{
-                System.out.print("\t");
-                }
+                System.out.print(val+"\t");
                 i++;
+                val++;
             }
             //next line preparation
             System.out.println();
             row++;
+            star++;
         }
     }
 }

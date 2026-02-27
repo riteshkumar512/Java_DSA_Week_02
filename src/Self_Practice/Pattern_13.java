@@ -1,24 +1,28 @@
 package Self_Practice;
 
-public class Pattern_07 {
+public class Pattern_13 {
     public static void main(String[] args) {
         int n=5;
         int row=1;
-        int star=n;
-        while (row<=n){
+        int star=1;
+        while (row<=2*n -1){
             //star
             int i=1;
             while (i<=star){
-                if (row==1 || row==n || i==1 ||i==n){
-                    System.out.print("*\t");
-                }else{
-                System.out.print("\t");
-                }
+                System.out.print("* ");
                 i++;
             }
+            //mirror
+            if (row<n){
+                star++;
+            }else {
+                star--;
+            }
+
             //next line preparation
             System.out.println();
             row++;
         }
+
     }
 }

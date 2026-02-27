@@ -4,8 +4,8 @@ public class Pattern_05 {
     public static void main(String[] args){
         int n=5;
         int row=1;
-        int space=n-1;
-        int star=1;
+        int space=0;
+        int star=n;
         while (row<=n){
             //space
             int i =1;
@@ -22,8 +22,8 @@ public class Pattern_05 {
             //next line preparation
             System.out.println();
             row++;
-            space--;
-            star++;
+            space++;
+            star--;
         }
     }
 }

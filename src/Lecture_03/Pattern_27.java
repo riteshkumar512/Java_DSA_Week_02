@@ -19,7 +19,7 @@ public class Pattern_27 {
             while (j <= star) {
                 System.out.print(val + "\t");
                 j++;
-                if (j < star/2 + 1) {
+                if (j <= star/2 + 1) {
                     val++;
                 } else {
                     val--;
