@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../JAVA_DSA_WEEK_03/JAVA_DSA_WEEK_03.iml" filepath="$PROJECT_DIR$/../JAVA_DSA_WEEK_03/JAVA_DSA_WEEK_03.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java_DSA_Week_02.iml" filepath="$PROJECT_DIR$/Java_DSA_Week_02.iml" />
     </modules>
   </component>
